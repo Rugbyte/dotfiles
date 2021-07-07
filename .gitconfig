@@ -1,0 +1,16 @@
+[core]
+	editor = code --wait
+[user]
+	name = Simon Varlow
+	email = simon.varlow@imimobile.com
+[color]
+	# ui = true
+    branch = auto
+  	diff = auto
+  	interactive = auto
+  	status = auto
+[alias]
+    ca = commit -a
+    cm = commit -m
+    d = diff
+    dc = diff --cached

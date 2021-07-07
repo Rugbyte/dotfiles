@@ -1,0 +1,13 @@
+*.DS_Store
+*.LSOverride
+Thumbs.db
+.env
+
+# Node ignore files and folders
+node_modules/
+.bundle
+
+# Python ignore files and folders
+venv/
+__pycache__/
+secrets.py
