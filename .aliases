@@ -1,0 +1,16 @@
+# Apt Aliases
+alias upgapt='sudo apt update && sudo apt upgrade -y && sudo apt autoremove --purge -y'
+alias aptin='sudo apt install -y '
+
+# Docker Aliases
+alias dall='docker ps -a'
+alias dr='docker run '
+
+# Git Aliases
+alias gs='git status'
+alias gaa='git add .'
+alias gcom='git checkout master'
+alias gc='git commit'
+alias gp='git pull --rebase'
+alias gcm='git commit -m'
+alias gcam='git commit -am'
