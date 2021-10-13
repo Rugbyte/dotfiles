@@ -5,6 +5,7 @@ alias aptin='sudo apt install -y '
 # Docker Aliases
 alias dall='docker ps -a'
 alias dr='docker run '
+alias drs='docker restart '
 
 # Git Aliases
 alias gs='git status'

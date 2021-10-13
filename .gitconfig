@@ -1,18 +1,20 @@
 [core]
-	editor = code --wait
+    editor = code --wait
 [user]
-	name = Simon Varlow
-	email = svarlow@gmail.com
+    name = Simon Varlow
+    email = svarlow@gmail.com
+[github]
+    username = rugbyte
 [color]
-	# ui = true
+    ui = true
     branch = auto
-  	diff = auto
-  	interactive = auto
-  	status = auto
+    diff = auto
+    interactive = auto
+    status = auto
 [alias]
     c = commit
     ca = commit -a
-	cm = commit -m
+    cm = commit -m
     cam = commit -am
     cl = clone
     cb = checkout -b
