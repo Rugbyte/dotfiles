@@ -3,18 +3,18 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Tab Control
-set tabstop=4     " indent using four spaces
-set softtabstop=4     " edit as if the tabs are 4 character wide
-set shiftwidth=4  " when shifting, indent using four spaces
-set expandtab   " converts tabs to spaces
+set tabstop=4           " indent using four spaces
+set softtabstop=4       " edit as if the tabs are 4 character wide
+set shiftwidth=4        " when shifting, indent using four spaces
+set expandtab           " converts tabs to spaces
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => User Interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Searching
-set smartcase   " case-sensitive if expression contains a capital letter
-set incsearch   " incremental search that shows partial matches
+set smartcase           " case-sensitive if expression contains a capital letter
+set incsearch           " incremental search that shows partial matches
 
 " switch syntax hightlighting on if available
 if has('syntax') 
@@ -22,21 +22,21 @@ if has('syntax')
 endif
 
 " bells
-set noerrorbells    " disable beep on errors
+set noerrorbells        " disable beep on errors
 
-set nowrap  " disable line wrapping
-set noswapfile  " disable swap files
-set nobackup    " don't create pointless backup files; Use VCS instead 
+set nowrap              " disable line wrapping
+set noswapfile          " disable swap files
+set nobackup            " don't create pointless backup files; Use VCS instead 
 set undodir=~/.vim/undodir
 set undofile
 
-set number  " show line numbers on the sidebar 
+set number              " show line numbers on the sidebar 
 " set nu
 
 filetype on             " enable filetype detection
 filetype indent on      " enable filetype-specific indenting
 
-set autoindent  " automatically set indent of new line
+set autoindent          " automatically set indent of new line
 set smartindent
 
 " column-width visual indication
