@@ -11,13 +11,23 @@
     diff = auto
     interactive = auto
     status = auto
+[push]
+    autoSetupRemote = true
 [alias]
     c = commit
     ca = commit -a
     cm = commit -m
     cam = commit -am
+    ########
     cl = clone
+    clb = clone --bare
+    ########
     cb = checkout -b
     com = checkout master
+    ########
     d = diff
     dc = diff --cached
+    ########
+    wtab = worktree add -b
+    wtr = worktree remove
+    wtl = worktree list
