@@ -2,6 +2,11 @@
 alias upgapt='sudo apt update && sudo apt upgrade -y && sudo apt autoremove --purge -y'
 alias aptin='sudo apt install -y '
 
+# LS Aliases
+alias ls='ls -CF'
+alias la='ls -A'
+alias ll='ls -lh'
+
 # Docker Aliases
 alias dall='docker ps -a'
 alias dr='docker run '
