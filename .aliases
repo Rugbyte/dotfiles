@@ -2,6 +2,9 @@
 alias upgapt='sudo apt update && sudo apt upgrade -y && sudo apt autoremove --purge -y'
 alias aptin='sudo apt install -y '
 
+# CD Aliases
+alias ..='cd ..'
+
 # LS Aliases
 alias ls='ls -CF'
 alias la='ls -A'
@@ -13,6 +16,7 @@ alias dr='docker run '
 alias drs='docker restart '
 
 # Git Aliases
+alias ctgc='cat ~/.gitconfig'
 alias gs='git status'
 alias gaa='git add .'
 alias gcom='git checkout master'
@@ -20,3 +24,18 @@ alias gc='git commit'
 alias gp='git pull --rebase'
 alias gcm='git commit -m'
 alias gcam='git commit -am'
+
+# Python Aliases
+alias act="source venv/bin/activate"
+alias crve="python 3 -m venv venv"
+
+# Ricing
+alias eal='vk ~/.aliases'
+
+# Bash
+alias sbr='source ~/.bashrc'
+alias ebr='vk ~/.bashrc'
+
+# ZSH
+alias szr='source ~/.zshrc'
+alias ezr='vk ~/.zshrc'
