@@ -39,3 +39,7 @@ alias ebr='vk ~/.bashrc'
 # ZSH
 alias szr='source ~/.zshrc'
 alias ezr='vk ~/.zshrc'
+
+# Kubernetes
+alias k='kubectl'
+alias fk='flux get kustomizations --watch'
