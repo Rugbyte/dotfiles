@@ -2,6 +2,10 @@
 alias upgapt='sudo apt update && sudo apt upgrade -y && sudo apt autoremove --purge -y'
 alias aptin='sudo apt install -y '
 
+# DNF Aliases
+alias dnfup='sudo dnf update -y'
+alias dnfin='sudo dnf install -y'
+
 # CD Aliases
 alias ..='cd ..'
 
